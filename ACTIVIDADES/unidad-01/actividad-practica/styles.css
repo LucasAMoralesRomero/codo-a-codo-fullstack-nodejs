@@ -1,7 +1,8 @@
 .centrado{
+    font-size:x-large;
     text-align: center;
     text-decoration-line: underline;
-    text-decoration-style: solid;
+    font-weight: bold;
 }
 .receta{
     text-align: justify;
@@ -9,7 +10,19 @@
 .ingredientes{
     text-align: left;
 }
+.cantidades{
+    font-weight: bold;
+}
 .porciones{
     text-align: left;
     text-decoration: gray;
+}
+.pasos{
+    text-align: justify;
+}
+.pasos h2{
+    color:darkgray;
+}
+.pasos h3{
+    color: darkgray;
 }
