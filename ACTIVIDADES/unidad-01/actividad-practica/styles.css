@@ -3,3 +3,13 @@
     text-decoration-line: underline;
     text-decoration-style: solid;
 }
+.receta{
+    text-align: justify;
+}
+.ingredientes{
+    text-align: left;
+}
+.porciones{
+    text-align: left;
+    text-decoration: gray;
+}
