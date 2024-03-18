@@ -9,11 +9,11 @@
     <form action="link" method="post" target="_blank">
         <fieldset>
             <fieldset>
-                <legend>Datos de usuario</legend>
+                <legend>Datos personales</legend>
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" id="nombre">
                 <br><br>
-                <label for="apellido">Apellido</label>
+                <label for="apellido">Apellido:</label>
                 <input type="text" name="apellido" id="apellido">
                 <br><br>
                 <label for="fechaNacimeinto">Fecha de nacimiento</label>
@@ -24,6 +24,18 @@
                 <input type="radio" name="genero" id="femenino"><label for="femenino">Femenino</label>
                 <input type="radio" name="genero" id="noInformo"><label for="noInformo">No informa</label>
             </fieldset>
+            <fieldset>
+                <legend>Datos de usuario</legend>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="contrasenia">Contraseña:</label>
+                <input type="password" name="contrasenia" id="contrasenia" required>
+                <br><br>
+                <label for="telefono">Celular:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+            </fieldset>
+            
             <input type="submit" value="Registrar">
         </fieldset>    
     </form>
